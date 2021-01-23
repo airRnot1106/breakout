@@ -36,7 +36,7 @@ Uses sound effects from Pocket Sound
 
 効果音素材: ポケットサウンド
 
-[![](https://pocket-se.info/image/bnr_pocket-se.jpg) {.left}](https://pocket-se.info)
+[![](https://pocket-se.info/image/bnr_pocket-se.jpg)](https://pocket-se.info)
 
 ## Author
 
