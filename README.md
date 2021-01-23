@@ -2,12 +2,13 @@
 
 ## OverView
 
-🎉**Congratulations!**🎉
+🎉__Congratulations!__🎉
+
 By golly you can play Breakout!
 
 ## DEMO
 
-<img width="425" alt="DEMO01" src="https://user-images.githubusercontent.com/62370527/105606384-62ff0300-5ddc-11eb-8409-7162a72728fc.png"><img width="425" alt="DEMO02" src="https://user-images.githubusercontent.com/62370527/105606385-64303000-5ddc-11eb-997e-cd6648b53e09.png">
+<img width="340" alt="DEMO01" src="https://user-images.githubusercontent.com/62370527/105607949-5f6f7a00-5de4-11eb-8f30-5342e33ae50a.png"><img width="340" alt="DEMO02" src="https://user-images.githubusercontent.com/62370527/105607950-60081080-5de4-11eb-9f58-acc9fe9f5757.png">
 
 ## What is it?
 
