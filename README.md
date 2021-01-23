@@ -2,7 +2,7 @@
 
 ## OverView
 
-🎉**Congratulations!**🎉
+**Congratulations!**
 
 By golly you can play Breakout!
 
