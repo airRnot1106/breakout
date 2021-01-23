@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <title>p5.js game</title>
+    </head>
+    <body>
+        <div class="parent-ready">
+            <div id="ready"></div>
+            <h1 id="text-ready">Ready?</h1>
+        </div>
+        <div class="parent-main">
+            <div id="game"></div>
+            <p id="stage">STAGE01</p>
+            <p id="text-clear">CLEAR</p>
+            <p id="clear-score">Score: 0</p>
+            <p id="time-bonus">Time Bonus: 0</p>
+        </div>
+        <div class="parent-score">
+            <div id="score"></div>
+            <h3 id="text-score">Score</h3>
+            <p id="score-num">0</p>
+            <p id="mag">x1.0</p>
+            <p id="text-timer">Time</p>
+            <p id="timer">00:00:00</p>
+            <p id="clear-time">00:00:00</p>
+        </div>
+        <div class="instractions">
+            <h2>Instractions</h2>
+            <div id="moves">
+                <p>Moves</p>
+                <ul>
+                    <li>A key: Left</li>
+                    <li>D key: Right</li>
+                </ul>
+            </div>
+            <div id="continue">
+                <p>Continue</p>
+                <ul>
+                    <li>Control + L key + Number</li>
+                </ul>
+            </div>
+        </div>
+        <div class="bgm">
+            <p id="text-bgm">BGM:OFF</p>
+        </div>
+        <div class="credit">
+            <a href="https://pocket-se.info/"><img src="https://pocket-se.info/image/bnr_pcse.jpg" target="_blank" /></a>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js" integrity="sha512-b/htz6gIyFi3dwSoZ0Uv3cuv3Ony7EeKkacgrcVg8CMzu90n777qveu0PBcbZUA7TzyENGtU+qZRuFAkfqgyoQ==" crossorigin="anonymous"></script>
+        <script src="game.js"></script>
+    </body>
+</html>

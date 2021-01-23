@@ -1,0 +1,199 @@
+div#game {
+    display: none;
+    width: 480px;
+    height: 480px;
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px
+}
+
+div#score {
+    width: 120px;
+    height: 480px;
+    float: left;
+    border-left: 2px solid;
+    border-color: #808080;
+}
+
+div#ready {
+    display: inline;
+    width: 480px;
+    height: 480px;
+    float: left;
+}
+
+div.parent-ready {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+h1#text-ready {
+    display: inline;
+    font-family: "Press Start 2P", cursive;
+    font-size: 56px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 80px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+div.parent-score {
+    position: absolute;
+    top: 0px;
+    left: 480px;
+}
+
+div.parent-main {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+h3#text-score {
+    font-family: "Press Start 2P", cursive;
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+p#score-num {
+    font-family: "Press Start 2P", cursive;
+    font-size: 8px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    transition: color 0.1s;
+}
+
+p#score-num.mistake {
+    color: #ff0000;
+    transition-duration: 0s;
+}
+
+p#mag {
+    font-family: "Press Start 2P", cursive;
+    font-size: 8px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+p#text-timer {
+    font-family: "Press Start 2P", cursive;
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+p#timer {
+    display: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 8px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 360px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+p#stage {
+    display: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 50px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 100px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+p#text-clear {
+    display: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 50px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 150px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+p#clear-score {
+    display: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+p#time-bonus {
+    display: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    transform: translate(-50%);
+    white-space: nowrap;
+}
+
+p#clear-time {
+    display: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 8px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 360px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+div.instractions {
+    font-family: "Press Start 2P", cursive;
+    font-size: 16px;
+    color: #000000;
+    clear: both;
+    position: absolute;
+    top: 480px;
+    left: 1%;
+}
+
+div#continue {
+    display: none;
+}
+
+div.bgm {
+    font-family: "Press Start 2P", cursive;
+    font-size: 16px;
+    color: #000000;
+    clear: both;
+    position: absolute;
+    top: 490px;
+    left: 67%;
+}
+
+div.credit {
+    position: absolute;
+    top: 700px;
+    left: 1%;
+}
