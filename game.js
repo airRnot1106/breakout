@@ -720,10 +720,21 @@ const canvas01 = function(p) {
             //左右の壁の反射判定
             if(ball[i].vec.x - (ball[i].rd / 2) <= 0 || ball[i].vec.x + (ball[i].rd / 2) >= p.width) {
                 ball[i].setMoveVec(ball[i].moveVec.reflect(new Vec2(1, 0)));
+                //めり込み防止用の処理
+                while(ball[i].vec.x + (ball[i].rd / 2) <= 0) {
+                    ball[i].vec = new Vec2(ball[i].vec.x + 0.5, ball[i].vec.y);
+                }
+                while(ball[i].vec.x + (ball[i].rd / 2) >= p.width) {
+                    ball[i].vec = new Vec2(ball[i].vec.x - 0.5, ball[i].vec.y);
+                }
             }
             //上の壁の反射判定
             if(ball[i].vec.y - (ball[i].rd / 2) <= 0) {
                 ball[i].setMoveVec(ball[i].moveVec.reflect(new Vec2(0, 1)));
+                //めり込み防止用の処理
+                while(ball[i].vec.y + (ball[i].rd / 2) <= 0) {
+                    ball[i].vec = new Vec2(ball[i].vec.x, ball[i].vec.y + 0.5);
+                }
             }
             //下の壁の反射判定
             if(ball[i].vec.y + (ball[i].rd / 2) >= p.height) {
@@ -731,7 +742,10 @@ const canvas01 = function(p) {
                 //速度の初期化
                 ball[i].setMoveVec(ball[i].moveVec.norm().mul(3));
                 //めり込み防止用の処理
-                ball[i].vec = new Vec2(ball[i].vec.x, ball[i].vec.y - 0.5);
+                while(ball[i].vec.y + (ball[i].rd / 2) >= p.height) {
+                    ball[i].vec = new Vec2(ball[i].vec.x, ball[i].vec.y - 0.5);
+                }
+                console.log(ball[i].vec);
                 //スコアの減点処理
                 score.subScore();
                 //スコアの減点演出
